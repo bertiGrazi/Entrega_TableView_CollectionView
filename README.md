@@ -1,6 +1,6 @@
 # Entrega_TableView_CollectionView
 
-<h3>Lista de Exercícios Table View e Collection View - Santander Coder Mobile IOS Digital House - 30/09/2020 - Professor Narlei e professora Jéssica</h>
+<h3>Lista de Exercícios Table View e Collection View - Santander Coder Mobile IOS Digital House - 30/09/2020 - Professor Narlei e Professora Jéssica</h>
 
 <h4>01 - Criar um app:</h4>
 <ul>
