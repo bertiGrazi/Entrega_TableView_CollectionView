@@ -117,12 +117,12 @@
 		F2290A6A2528C4EE0003EE7A /* exercicio_04_ColletionView */ = {
 			isa = PBXGroup;
 			children = (
+				F2E6BEE1252A161500278BF0 /* ViewController */,
+				F2E6BEDF252A15C100278BF0 /* Cell_CollectionView */,
+				F2E6BEDE252A15B500278BF0 /* Class */,
 				F2290AA82528C7AC0003EE7A /* image */,
 				F2290A6B2528C4EE0003EE7A /* AppDelegate.swift */,
 				F2290A6D2528C4EE0003EE7A /* SceneDelegate.swift */,
-				F2290A6F2528C4EE0003EE7A /* ViewController.swift */,
-				F2290A9E2528C5FA0003EE7A /* Name.swift */,
-				F2290AA32528C6420003EE7A /* NameCollectionViewCell.swift */,
 				F2290A712528C4EE0003EE7A /* Main.storyboard */,
 				F2290A742528C4F40003EE7A /* Assets.xcassets */,
 				F2290A762528C4F40003EE7A /* LaunchScreen.storyboard */,
@@ -161,6 +161,30 @@
 				F2290ABF2528DA420003EE7A /* 7.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		F2E6BEDE252A15B500278BF0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F2290A9E2528C5FA0003EE7A /* Name.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F2E6BEDF252A15C100278BF0 /* Cell_CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F2290AA32528C6420003EE7A /* NameCollectionViewCell.swift */,
+			);
+			path = Cell_CollectionView;
+			sourceTree = "<group>";
+		};
+		F2E6BEE1252A161500278BF0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2290A6F2528C4EE0003EE7A /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
