@@ -1,17 +1,17 @@
 # Entrega_TableView_CollectionView
 
-<h3>Lista de Exercícios Table View e Collection View - Santander Coder Mobile IOS Digital House - 30/09/2020</h>
+<h3>Lista de Exercícios Table View e Collection View - Santander Coder Mobile IOS Digital House - 30/09/2020 - Professor Narlei e professora Jéssica</h>
 
 <h4>01 - Criar um app:</h4>
 <ul>
   <li>Tenha uma lista (tableView) com 15 pessoas.</li>
   <li>Cada célula (linha) deve ter o nome, cargo e email de uma pessoa.</li>
-<li>Quando tocar numa celula, deve abrir uma tela em modal, nessa tela deve haver um botão de fechar e um label com o nome da pessoa.</li>
+  <li>Quando tocar numa celula, deve abrir uma tela em modal, nessa tela deve haver um botão de fechar e um label com o nome da pessoa.</li>
 </ul>
 <h4>02 - Criar um app:</h4>
 <ul>
   <li>Tenha uma lista (tableView) com 10 animais.</li>
-  <li>Cada célula (linha) deve ter o nome, raça, peso e espécie de um animal.<li>
+  <li>Cada célula (linha) deve ter o nome, raça, peso e espécie de um animal.</li>
   <li>Quando tocar numa celula, deve abrir uma tela em modal, nessa tela deve haver um botão de fechar e um label com o nome do animal.</li>
 </ul>
 <h4>03 - Criar um app:</h4>
