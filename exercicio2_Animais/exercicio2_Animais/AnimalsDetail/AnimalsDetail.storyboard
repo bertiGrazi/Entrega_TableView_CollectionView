@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bkD-9A-xqL">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Animals Detail View Controller-->
+        <scene sceneID="lfL-pB-Gzh">
+            <objects>
+                <viewController id="bkD-9A-xqL" customClass="AnimalsDetailViewController" customModule="exercicio2_Animais" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pCr-3F-Hkr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSk-iu-aBJ">
+                                <rect key="frame" x="32" y="93" width="351" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="FIO-hO-uTf"/>
+                                    <constraint firstAttribute="width" constant="351" id="dpv-VJ-rE8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ytl-YR-w9b">
+                                <rect key="frame" x="67" y="730" width="281" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="buttonClose:" destination="bkD-9A-xqL" eventType="touchUpInside" id="WP0-N8-enb"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jtm-oA-rGw">
+                                <rect key="frame" x="56" y="270" width="319" height="259"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="259" id="FRu-1e-zIe"/>
+                                    <constraint firstAttribute="width" constant="319" id="T1w-E0-fHy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nqd-zS-KRd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aSk-iu-aBJ" firstAttribute="leading" secondItem="Nqd-zS-KRd" secondAttribute="leading" constant="32" id="654-6M-oq5"/>
+                            <constraint firstItem="jtm-oA-rGw" firstAttribute="top" secondItem="aSk-iu-aBJ" secondAttribute="bottom" constant="141" id="8Ue-jB-aOM"/>
+                            <constraint firstItem="jtm-oA-rGw" firstAttribute="leading" secondItem="Nqd-zS-KRd" secondAttribute="leading" constant="56" id="LbY-4g-zZb"/>
+                            <constraint firstItem="aSk-iu-aBJ" firstAttribute="top" secondItem="Nqd-zS-KRd" secondAttribute="top" constant="49" id="RiG-gK-oDG"/>
+                            <constraint firstItem="Ytl-YR-w9b" firstAttribute="leading" secondItem="Nqd-zS-KRd" secondAttribute="leading" constant="67" id="Zns-YD-129"/>
+                            <constraint firstItem="Nqd-zS-KRd" firstAttribute="trailing" secondItem="jtm-oA-rGw" secondAttribute="trailing" constant="39" id="dXw-hB-d9g"/>
+                            <constraint firstItem="Nqd-zS-KRd" firstAttribute="trailing" secondItem="aSk-iu-aBJ" secondAttribute="trailing" constant="31" id="mRi-ey-HHP"/>
+                            <constraint firstItem="Nqd-zS-KRd" firstAttribute="trailing" secondItem="Ytl-YR-w9b" secondAttribute="trailing" constant="66" id="nRa-34-svU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageViewAnimals" destination="jtm-oA-rGw" id="WRh-2y-3Bf"/>
+                        <outlet property="labelName" destination="aSk-iu-aBJ" id="Jeb-Fv-3YS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7vO-ge-EIa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="71.014492753623188" y="130.58035714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
