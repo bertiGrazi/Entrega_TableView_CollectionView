@@ -10,15 +10,19 @@ import UIKit
 class CarDetailViewController: UIViewController {
 
     @IBOutlet weak var imageViewCar: UIImageView!
-    var profileImage: String?
+    var carro: Cars?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
+        self.title = carro?.name
         
     }
     func setup(){
-        imageViewCar.image = UIImage(named: profileImage!)
+        if let carro = carro{
+            imageViewCar.image = UIImage(named: carro.profileImage)
+        }
+        
     }
    
 }

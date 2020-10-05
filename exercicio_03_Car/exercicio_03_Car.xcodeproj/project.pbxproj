@@ -23,7 +23,6 @@
 		F2290A342528A8CD0003EE7A /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F2290A2E2528A8CD0003EE7A /* 5.png */; };
 		F2290A3E2528AFA20003EE7A /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = F2290A3B2528AFA20003EE7A /* 8.png */; };
 		F2290A3F2528AFA20003EE7A /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F2290A3C2528AFA20003EE7A /* 9.jpeg */; };
-		F2290A402528AFA20003EE7A /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = F2290A3D2528AFA20003EE7A /* 7.png */; };
 		F2290A482528AFB70003EE7A /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2290A472528AFB70003EE7A /* 4.jpg */; };
 		F2290A4D2528AFDE0003EE7A /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F2290A4C2528AFDE0003EE7A /* 6.png */; };
 		F2290A582528B0230003EE7A /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = F2290A572528B0230003EE7A /* 10.png */; };
@@ -71,7 +70,6 @@
 		F2290A2E2528A8CD0003EE7A /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		F2290A3B2528AFA20003EE7A /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		F2290A3C2528AFA20003EE7A /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
-		F2290A3D2528AFA20003EE7A /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = ../../../../Pictures/7.png; sourceTree = "<group>"; };
 		F2290A472528AFB70003EE7A /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		F2290A4C2528AFDE0003EE7A /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		F2290A572528B0230003EE7A /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 				F2290A472528AFB70003EE7A /* 4.jpg */,
 				F2290A2E2528A8CD0003EE7A /* 5.png */,
 				F2290A4C2528AFDE0003EE7A /* 6.png */,
-				F2290A3D2528AFA20003EE7A /* 7.png */,
 				F2290A3B2528AFA20003EE7A /* 8.png */,
 				F2290A3C2528AFA20003EE7A /* 9.jpeg */,
 				F2290A572528B0230003EE7A /* 10.png */,
@@ -317,7 +314,6 @@
 				F2290A4D2528AFDE0003EE7A /* 6.png in Resources */,
 				F2E6BEFE252A262400278BF0 /* CarDetail.storyboard in Resources */,
 				F2290A3E2528AFA20003EE7A /* 8.png in Resources */,
-				F2290A402528AFA20003EE7A /* 7.png in Resources */,
 				F2290A2F2528A8CD0003EE7A /* 3.png in Resources */,
 				F2290A342528A8CD0003EE7A /* 5.png in Resources */,
 				F2290A3F2528AFA20003EE7A /* 9.jpeg in Resources */,

@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         arrayCars.append(Cars(name: "Palio", profileImage: "4.jpg"))
         arrayCars.append(Cars(name: "Toró", profileImage: "5.png"))
         arrayCars.append(Cars(name: "Jeep", profileImage: "6.png"))
-        arrayCars.append(Cars(name: "Gol", profileImage: "7.png"))
+        arrayCars.append(Cars(name: "Gol", profileImage: "6.png"))
         arrayCars.append(Cars(name: "Sandero", profileImage: "8.png"))
         arrayCars.append(Cars(name: "Onix", profileImage: "9.jpeg"))
         arrayCars.append(Cars(name: "Audi", profileImage: "10.png"))
@@ -41,7 +41,7 @@ extension ViewController: UICollectionViewDelegate {
         print("Selecionou: \(carName)")
         
         if let viewDetail = UIStoryboard(name: "CarDetail", bundle: nil).instantiateInitialViewController() as? CarDetailViewController {
-            viewDetail.profileImage = arrayCars[indexPath.row].profileImage
+            viewDetail.carro = arrayCars[indexPath.row]
             navigationController?.pushViewController(viewDetail, animated: true)
         }
     }
